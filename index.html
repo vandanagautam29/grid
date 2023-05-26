@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style/right.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body class="app-container cyan-base border-cyan showViewControls" ng-controller="MenuController">
@@ -140,11 +140,11 @@
                                             <div class="divider"></div>
                                             <ul class="pl-6">
                                                 <li ng-repeat="item in value.headers | filter:searchText">
-                                                    <span class="material-symbols-outlined fs-15"
+                                                    <span class="material-icons fs-15"
                                                         ng-click="item.show = !item.show" style="
                                                         color: green;
                                                     " ng-class="{'active': item.show}">
-                                                        {{ item.show ? 'toggle_on' : 'toggle_off' }}
+                                                        {{ item.show ? 'toggle_off' : 'toggle_on' }}
                                                     </span>
                                                     <span class="material-symbols-outlined fs-15">expand_circle_down</span>
                                                     <span>{{ item.name }}</span>
