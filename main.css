@@ -7,7 +7,8 @@
   border-color: #5fd3fc;
 }
 .cyan-base, .cyanBase, .cyan-base:focus, .cyan-base-focus-within:focus-within, .hover-container:hover .parent-hover-cyan-base {
-  background-color: #5fd3fc;
+  /* background-color: #5fd3fc; */
+  background: #ffffff;
 }
 body {
   line-height: 18px;
@@ -45,6 +46,9 @@ body {
 }
 .flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column !important;
 }
 .baymax {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -391,6 +395,10 @@ tableContainer   - #appControlsContainer
 }
 .height-full {
   height: 100%;
+}
+
+.height-auto {
+  height: auto !important;
 }
 .truncate {
   max-width: 100%;
@@ -1236,3 +1244,942 @@ ul {
 .forHideFields .active{
   color:#706868 !important;
 }
+
+.check{
+  display: none;
+}
+
+.rowData:hover .index{
+ display: none;
+}
+
+
+.rowData:hover .check{
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+ }
+
+.rightelement:hover .index{
+  display: none;
+}
+
+.rightelement:hover .check{
+  display: block;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightHeaderPane {
+  color: hsl(0,0%,20%);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid hsl(0,0%,82%);
+}
+
+.rightHeaderPane .rightHeaderData {
+  width: 200px;
+  padding: 8px;
+  border-left: 1px solid hsl(0,0%,82%);
+  border-bottom: 1px solid hsl(0,0%,82%);
+}
+
+.rightBodyContainer {
+  font-family: system-ui;
+  /* background: #ffffff; */
+}
+
+.rightBodyPane {
+  color: hsl(0,0%,20%);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.rightPaneWithBorder {
+  margin: 1rem;
+  border: 1px solid hsl(0,0%,82%);
+  border-radius: 4px;
+}
+
+.rightBodyPane-expend {
+  color: hsl(0,0%,20%);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.leftBodyPane {
+  background: white;
+  height: 49.3px;
+  border-bottom: 1px solid hsl(0,0%,82%);
+}
+
+.leftBodyData {
+  color: hsl(0,0%,20%);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: system-ui;
+}
+
+.rightBodyData {
+  /* width: 199.4px; */
+  width: 201px;
+  padding: 8px;
+  /* border-left: 1px solid hsl(0,0%,82%); */
+  background: white;
+  /* border-bottom: 1px solid hsl(0,0%,82%); */
+  /* border-top: 1px solid hsl(0,0%,82%); */
+  border: 1px solid hsl(0,0%,82%);
+}
+
+.rightBodyData-expend {
+  width: 200px;
+  padding: 8px;
+  border-left: 1px solid hsl(0,0%,82%);
+  background: white;
+  border-bottom: 1px solid hsl(0,0%,82%);
+  background: whitesmoke;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.g-4 {
+  gap: 4px;
+}
+
+.g-6 {
+  gap: 6px;
+}
+.g-40 {
+  gap: 40px;
+}
+.g-170 {
+  gap: 170px;
+}
+
+.g-16 {
+  gap: 16px;
+}
+
+.g-30 {
+  gap: 30px;
+}
+
+.g-20 {
+  gap: 20px;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.bg-sky-blue {
+  background: #e9eef9;
+}
+
+.b {
+  border: 1px solid hsl(0,0%,82%);
+}
+
+.bb {
+  border-bottom: 1px solid hsl(0,0%,82%);
+}
+
+.br {
+  border-right: 1px solid hsl(0,0%,82%);
+}
+.round-3 {
+  border-radius: 3px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-3 {
+  padding: 3px;
+}
+
+.p-1rm {
+  padding: 1rem;
+}
+
+.m-1rm {
+  margin: 1rem;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl16 {
+  padding-left: 16px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-3 {
+  padding-right: 3px;
+}
+
+.pt-3 {
+  padding-top: 3px;
+}
+
+.pt-6 {
+  padding-top: 6px;
+}
+
+.pb-6 {
+  padding-bottom: 6px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.pb-3 {
+  padding-bottom: 3px;
+}
+
+
+.pl-0{
+  padding-left: 0;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+.pl-6 {
+  padding-left: 6px;
+}
+.pl-8 {
+  padding-left: 8px;
+}
+.pl-3 {
+  padding-left: 3px;
+}
+
+.pr-6 {
+  padding-right: 6px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-16 {
+  margin: 16px;
+}
+
+.m-12 {
+  margin: 12px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+.ml-24 {
+  margin-left: 24px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.h-14 {
+  height: 14rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.hide-rightBodyPane {
+  display: none;
+}
+
+.ptb-4-plr {
+  padding: 4px 8px;
+}
+
+.headerEditMenu {
+  background: white;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 4px;
+  overflow: auto;
+  border: 1px solid hsl(0,0%,82%);
+}
+
+.showEditableMenu {
+  z-index: 1;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 6px;
+  display: none;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.show-dailog {
+  cursor: pointer;
+}
+.all-stories {
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.all-stories:hover {
+  background: whitesmoke;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.addsubGroup:hover {
+  color: #000;
+}
+
+.forAllStories li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 12px 0 12px 0;
+  gap: 8px;
+  font-family: system-ui;
+}
+
+.forHideFieldsIconColor {
+  background: #c3ebfe;
+  border-radius: 4px;
+}
+
+.forHideFieldsIconColor:hover {
+  background: #c3ebfe;
+  border:2px solid #b1e5fd;
+  padding: 2px 6px;
+}
+
+.forHideFieldsIcon:hover {
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.forHideFields {
+  z-index: 1;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.forHideFields div:first-child {
+  border-top: 2px whitesmoke;
+}
+.forHideFields ul {
+  height: 12rem;
+  overflow-y: auto;
+  margin-left: .5rem;
+}
+.forHideFields li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 12px 0 12px 0;
+  gap: 8px;
+  font-family: system-ui;
+}
+
+.forHideFields li:hover {
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forHideFields input {
+  border: none;
+  margin-left: .5rem;
+  margin-top: 1rem;
+  width: 95%;
+  outline: none;
+}
+
+.forHideFields .btn button{
+  border: none;
+  padding: 5px 35px;
+  border-radius: 2px;
+  margin: 0 12px 8px;
+  color: hsl(0,0%,30%);
+}
+
+.forHideFields .btn button:hover {
+  color: black;
+}
+
+.divider {
+  border-bottom: 2px solid #efefef;
+  margin: 11px 8px 0px 5px;
+}
+
+.filter-popupIcon:hover {
+  background: hsl(0,0%,96%);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.forFilter {
+  width: 38rem;
+  font-family: system-ui;
+  z-index: 1;
+  padding: .25rem;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.forFilter div {
+  margin: 8px;
+}
+
+.forFilter .filterCondition{
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  display: flex;
+  width: 85%;
+  height: 2rem;
+}
+
+.forFilterIcon {
+padding: 4px 8px;
+}
+
+.forFilterIcon:hover {
+  background: hsl(0,0%,96%);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.filterCondition select:first-child {
+  border: none;
+  width: 10rem;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.filterCondition select:nth-child(2) {
+  border: none;
+  width: 6rem;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.filterCondition input {
+  outline: none;
+  border: none;
+  width: 13rem;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.filterAction {
+  color: #5c5f65;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.filterAction .add-another-sort:hover {
+  color: black;
+}
+
+.filterFirstOptions {
+  padding: 14px;
+}
+
+.groupsPopupIconColor {
+  background: #e0dafd;
+  border-radius: 4px;
+}
+
+.groupsPopupIconColor:hover {
+  border: 2px solid #d7d0fd;
+  background: #e0dafd;
+  padding: 2px 6px;
+}
+
+.groupsPopupIcon:hover {
+  background: hsl(0,0%,96%);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.forGroups {
+  font-family: system-ui;
+  padding: .75rem;
+  z-index: 1;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.forGroups .selection {
+  border: none;
+  width: 9rem;
+  padding: 6px 6px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  outline: none;
+}
+
+.forGroups ul li:hover {
+  background: hsl(0, 0%, 97%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forGroups .seeAllFields:hover {
+  background: hsl(0, 0%, 97%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sortPopupIcon:hover {
+  background: hsl(0,0%,96%);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.sortPopupIconColor {
+  background: #ffe0cc;
+  border-radius: 4px;
+}
+
+.sortPopupIconColor:hover {
+  background: #ffe0cc;
+  border: 2px solid #e5c9b7;
+  padding: 2px 6px;
+}
+
+.sortings {
+  font-family: system-ui;
+  padding: .75rem;
+  width: 24rem;
+  z-index: 1;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.sortings .selection {
+  border: none;
+  width: 8rem;
+  padding: 3px 6px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+}
+
+.sortings ul li:hover{
+  background: hsl(0, 0%, 97%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sortings .sortingName:hover {
+  background: hsl(0,0%,92%);
+}
+
+#sortings__field input {
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  margin: 5px;
+  width: 97%;
+  outline: none;
+}
+
+#sortings__field ul {
+  margin: 0;
+}
+
+.viewNavBar {
+  width: 0;
+}
+
+.viewNavBar ul {
+  padding-left: 8px;
+}
+
+.viewNavBar li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 12px 0 12px 0;
+  gap: 8px;
+  font-family: system-ui;
+  padding: 5px 8px;
+}
+.itemCenter{
+  align-items: center;
+}
+.viewNavBar li:hover {
+  background: rgba(196, 236, 255, 0.7);
+  padding: 5px 8px;
+}
+
+.columnHeadFeture {
+  font-family: system-ui;
+  z-index: 1;
+  position: absolute;
+  background: white;
+  width: 15rem;
+  display: none;
+}
+
+.menuView, .columnFeatures {
+  cursor: pointer;
+}
+
+.add-another-sort:hover {
+  color: black;
+}
+
+.close {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: #f5f5f5;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.forAllStory {
+  font-family: system-ui;
+  padding: .75rem;
+  width: 20rem;
+  z-index: 1;
+  border: 1px solid hsl(0,0%,82%);
+  background: white;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.24),
+              0 0 2px rgba(0,0,0,0.16),
+              0 3px 4px rgba(0,0,0,0.06),
+              0 6px 8px rgba(0,0,0,0.06),
+              0 12px 16px rgba(0,0,0,0.08),
+              0 18px 32px rgba(0,0,0,0.06);
+}
+
+.forAllStory ul li:hover {
+  background: whitesmoke;
+  border-radius: 4px;
+}
+
+.accordion__content div:first-child {
+  border-left: 0 !important;
+}
+
+.body-1 {
+  border: 1px solid hsl(0,0%,82%);
+  border-radius: 4px;
+}
+
+.body-1 .accordion__title-1 {
+  height: 50px;
+  padding-left: 8px;
+  /* width: 192px; */
+  width: 245px;
+  border-right: 1px solid hsl(0,0%,82%);
+  padding-top: 8px;
+  background: #e3e3e3;
+}
+
+.body-2 .accordion__title-2 {
+  height: 50px;
+  padding-left: 8px;
+  /* width: 183px; */
+  width: 236.5px;
+  border-right: 1px solid hsl(0,0%,82%);
+  padding-top: 8px;
+  background: #ededed;
+}
+
+.body-2 {
+  border: 1px solid hsl(0,0%,82%);
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.body-3 {
+  border: 1px solid hsl(0,0%,82%);
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.body-3 .element-1 {
+  height: 50px;
+  margin-left: 8px;
+  /* width: 174.5px; */
+  width: 228px;
+  border-right: 1px solid hsl(0,0%,82%);
+  padding-top: 8px;
+  background: #f7f7f7;
+}
+
+.body-3 .element-2 {
+  margin-left: 8px;
+  border: 1px solid hsl(0,0%,82%);
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  background: #ffffff;
+}
+
+.body-3 .element-2 span:first-child {
+  border-right: 1px solid hsl(0,0%,82%);
+  /* width: 158px; */
+  width: 211px;
+  padding: 8px;
+}
+
+.body-3 .element-2 span:not(:first-child) {
+  border-right: 1px solid hsl(0,0%,82%);
+  width: 200px;
+  padding: 8px;
+}
+
+.rightelement .rightelement-1:first-child {
+  width: 183px !important;
+}
+
+.body-3 > .element-3{
+  border-right: 1px solid hsl(0,0%,82%);
+  /* width: 166.5px; */
+  width: 220px;
+  height: 50px;
+  padding: 8px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: inline-flex;
+}
+
+.body-3 > .element-3 ~ .element-3{
+  border-right: 1px solid hsl(0,0%,82%);
+  width: 200px;
+  height: 50px;
+  padding: 8px;
+}
+.editable-input:hover {
+  background-color: gray;
+}
+
+.checkBoxAndNumber {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkBoxAndNumber1 {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+}
+
+
+
+.drag {
+  cursor: grab;
+}
+
+.baymax * {
+  box-sizing: border-box;
+}
+.rounded {
+  border-radius: 3px;
+}
+.flex-auto {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* date 30-6-23 css */
+
+.viewBarContainer {
+  background: white;
+  padding: .5rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.col-5 {
+  width: 45%;
+}
+
+.col-2 {
+  width: 10%;
+}
+
+/* .columnResizer {
+  width: 4px;
+  cursor: col-resize;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -2px;
+  z-index: 10;
+}
+
+#headerContainer {
+  position: relative;
+} */
+

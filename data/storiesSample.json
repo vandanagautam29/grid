@@ -1,5 +1,4 @@
 
-
 {
     "stories": {
         "headers": [
@@ -52,62 +51,8 @@
                 "name": "Sprint",
                 "key": "sprint",
                 "dataType": "string"
-            },
-            {
-                "name": "Release seq. no.",
-                "key": "releaseSeq",
-                "dataType": "number"
-            },
-            {
-                "name": "Blocking Stories",
-                "key": "blockingStories",
-                "dataType": "string"
-            },
-            {
-                "name": "So that",
-                "key": "soThat",
-                "dataType": "string"
-            },
-            {
-                "name": "PhabTask",
-                "key": "phabTask",
-                "dataType": "number"
-            },
-            {
-                "name": "[P?]",
-                "key": "p",
-                "dataType": "boolean"
-            },
-            {
-                "name": "Sever Eng.Task",
-                "key": "serverEngTask",
-                "dataType": "boolean"
-            },
-            {
-                "name": "Client Eng. Task",
-                "key": "clientEngTask",
-                "dataType": "boolean"
-            },
-            {
-                "name": "Notes",
-                "key": "notes",
-                "dataType": "string"
-            },
-            {
-                "name": "Story_id",
-                "key": "storyId",
-                "dataType": "number"
-            },
-            {
-                "name": "FhabUrl",
-                "key": "fhabUrl",
-                "dataType": "string"
-            },
-            {
-                "name": "to-be-pointed",
-                "key": "toBePointed",
-                "dataType": "boolean"
-            }
+            }   
+        
         ],
         "data": [
             {
@@ -120,22 +65,11 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"             
             },
             {
                 "storyName": "data changed",
-                "userWant": "data changed",
+                "userWant": "get data changed",
                 "serverPoints": "12",
                 "clientPoints": "1322",
                 "built": "",
@@ -143,22 +77,11 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"          
             },
             {
-                "storyName": "new data",
-                "userWant": " (in robot form) will offer a hug when I'm stressed out",
+                "storyName": "new data add",
+                "userWant": " (in robot form) will offer ",
                 "serverPoints": "14",
                 "clientPoints": "177",
                 "built": "",
@@ -166,22 +89,12 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"
+              
             },
             {
                 "storyName": "New test data",
-                "userWant": " will offer a hug when I'm stressed out",
+                "userWant": " get column",
                 "serverPoints": "15",
                 "clientPoints": "18888",
                 "built": "",
@@ -189,22 +102,11 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"          
             },
             {
-                "storyName": "New test data",
-                "userWant": " offer a hug when I'm stressed out",
+                "storyName": "pass data",
+                "userWant": " get data from db",
                 "serverPoints": "16",
                 "clientPoints": "1788",
                 "built": "",
@@ -212,21 +114,11 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"
+             
             },
             {
-                "storyName": "Car (in robot form) will offer a hug when I'm stressed out",
+                "storyName": "data should be rearrange",
                 "userWant": "Car (in robot form) will offer a hug when I'm stressed out",
                 "serverPoints": "17",
                 "clientPoints": "190",
@@ -235,22 +127,12 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"
+              
             },
             {
-                "storyName": "Car (in robot form) will offer a hug when I'm stressed out",
-                "userWant": "Car (in robot form) will offer a hug when I'm stressed out",
+                "storyName": " when data move in a cell",
+                "userWant": "pass the data in cell",
                 "serverPoints": "18",
                 "clientPoints": "99",
                 "built": "",
@@ -258,18 +140,7 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"  
             },
             {
                 "storyName": "Car (in robot form) will offer a hug when I'm stressed out",
@@ -281,18 +152,7 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"    
             },
             {
                 "storyName": "Car (in robot form) will offer a hug when I'm stressed out",
@@ -304,18 +164,7 @@
                 "facets": "Location Parked",
                 "epics": "E116: Robot AI (emotional components)",
                 "blockRelease": "Full release",
-                "sprint": "Gremlin",
-                "releaseSeq": "5",
-                "blockingStories": "",
-                "soThat": "I'll know that I'm not alone and someone loves me",
-                "phabTask": "1333",
-                "p": "",
-                "serverEngTask": "",
-                "clientEngTask": "",
-                "notes": "Make sure that adapter gets verbal consent before hugging as not all drivers are huggers",
-                "storyId": "145",
-                "fhabUrl": "https://fhabricator.automatic.co/T13333",
-                "toBePointed": ""
+                "sprint": "Gremlin"             
             }
         ]
     },
@@ -360,37 +209,7 @@
                 "name": "Sprints",
                 "key": "sprints",
                 "dataType": "string"
-            },
-            {
-                "name": "Rob est.",
-                "key": "rob",
-                "dataType": "number"
-            },
-            {
-                "name": "Server pts.",
-                "key": "serverPoints",
-                "dataType": "number"
-            },
-            {
-                "name": "Client pts.",
-                "key": "clientPoints",
-                "dataType": "number"
-            },
-            {
-                "name": "Stories",
-                "key": "stories",
-                "dataType": "string"
-            },
-            {
-                "name": "Facets",
-                "key": "facets",
-                "dataType": "string"
-            },
-            {
-                "name": "No. open stories",
-                "key": "noOpenStories",
-                "dataType": "number"
-            }
+            }                
         ],
         "data": [
             {
@@ -401,13 +220,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E56:  refinement",
@@ -417,13 +230,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"           
             },
             {
                 "epicName": "E57:style refinement",
@@ -431,15 +238,9 @@
                 "blockRelease": "15",
                 "description": "data sorting",
                 "noStories": "",
-                "seqNo": "",
+                "seqNo": "", 
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E58: Beta style refinement",
@@ -449,13 +250,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E59: Beta style refinement",
@@ -465,13 +260,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E60: Beta style refinement",
@@ -481,13 +270,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E60: Beta style refinement",
@@ -497,13 +280,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             },
             {
                 "epicName": "E55: Beta style refinement",
@@ -513,13 +290,7 @@
                 "noStories": "",
                 "seqNo": "",
                 "blockedBy": "Location Parked",
-                "sprints": "E116: Robot AI (emotional components)",
-                "rob": "Full release",
-                "serverPoints": "Gremlin",
-                "clientPoints": "5",
-                "stories": "",
-                "facets": "I'll know that I'm not alone and someone loves me",
-                "noOpenStories": "1333"
+                "sprints": "E116: Robot AI (emotional components)"
             }
         ]
     },

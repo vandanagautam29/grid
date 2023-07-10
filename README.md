@@ -5,7 +5,7 @@ Hi Team, Please see the below code
 <script cr-grid type="" id="tablelist" collection="sample_list">
 	<features all="true">
 		<dynamic-views false/>
-<default-view></default-view>
+        <default-view></default-view>
 		<export true/>
 		<default-sort true column="mycolumn"/>
 		<pagination true size="50"/>
@@ -32,3 +32,16 @@ The features should be modular and we should be able to Enable or Disable in the
 UnyKloud Projects
   12:21 PM
 var sample_list = [{"id":"", "employee":"1", "employeeText":"Piyush", "subject":""}, {}] (edited) 
+
+
+hidefield -   <span class="material-icons hideFieldsIcon" ng-click="hideFromIndex = !hideFromIndex">
+        {{ hideFromIndex ? 'visibility_off' : 'visibility' }}
+      </span>
+
+
+
+
+
+
+
+	  
